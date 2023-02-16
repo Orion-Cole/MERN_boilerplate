@@ -14,7 +14,7 @@ const cors = require('cors')
 app.use(express.json())
 
 // server builder folder
-app.use(express.static(path.join(__dirname, 'build)')))
+app.use(express.static(path.join(__dirname, 'build')))
 
 
 
